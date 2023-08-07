@@ -1,0 +1,210 @@
+html
+{
+    scroll-behavior: smooth;
+}
+i{
+    font-size: 25px;
+}
+footer{
+    height: 170px;
+}
+
+/* ----- HAKKIMDA ----- */
+
+.section1Hakkimda{
+    background-image: url(images/1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    padding: 200px 100px;
+    min-height: 900px;
+    height: 100%;
+}
+
+.section2Hakkimda{
+    padding-top: 60px;
+    background-image: url(images/wall.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    min-height: 900px;
+}
+
+.sola-kaydir{
+    float:left;
+    padding:10px 30px 50px 80px;
+   
+}
+
+.hakkimdaYaziTipi{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: x-large;    
+    padding-top: 70px 
+}
+
+/* ----- TAKIMIM ------*/
+
+.section1Takimim{
+    background-image: url(images/background2.jpg);
+    padding: 200px 100px;
+    min-height: 900px;
+    height: 100%;
+     }
+.section2Takimim{
+    background-image: url();
+    background-size: 100% 100%;
+    padding-top: 50px;
+    height: 100%;
+}
+.takimimYaziTipi{
+    font-family: serif; 
+    font-size: x-large;
+    padding-top: 70px 
+}
+
+/* ----- ŞEHRİM ------*/
+
+.section1Adiyaman{
+    background-image: url(images/adiyaman.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 900px;
+    background-position: cover;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.section2Adiyaman {
+    background-image: url(images/background.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 900px;
+    background-position: cover;
+    padding-top: 100px;
+}
+.adiyaman{
+    font-family: serif;
+    font-size: 7vw;
+}
+.sehirButton{
+    padding-right: 600px;
+    padding-top: 650px;
+}
+.sehirYaziTipi{
+    font-family: monospace;
+    font-size: 1.0vw;
+    color: rgb(0, 0, 0);
+}
+.mekanlar{
+    background-image: url(images/background.jpg);
+    background-size: 100% 100%;
+    padding: 200px 50px;
+    min-height: 900px;
+    height: 100%;
+}
+.mekanlarYaziTipi{  
+    font-family: serif; 
+    font-size: x-large;
+    padding-top: 50px 
+}
+
+/* ----- ÖZ GEÇMİŞİM ----- */
+
+.baslik{
+    font-family: serif;
+}
+.cvYaziTipi{
+    font-family: monospace;
+    font-size: large;
+}
+.cvSection{
+    background-image: url(images/background4.jpg);
+    background-size: 100% 100%;
+    height: 1740px;
+}
+.cerceve{
+    background-color: black;
+}.cvDiv{
+    padding-top: 200px;
+}
+
+/* ----- İLGİ ALANLARIM ----- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.interest-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.interest-card:hover {
+    background-color: #f9f9f9;
+}
+ 
+
+/* ----- İLETİŞİM ----- */
+
+.iletisim{
+    background-image: url(images/background2.jpg);
+    background-size: 100% 100%;
+    padding: 100px;
+    width: 100%;
+    height: 1570px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: serif;
+    color: white;
+
+}
+.iletisimSonuc{
+    padding-top: 200px;
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    font-family: serif;
+}
+
+/* ----- LOGİN -----*/
+.login{
+    justify-content: center;
+    text-align: center;
+    padding-top: 280px;
+}
+.loginSonuc{
+    padding-top: 320px;
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    font-family: serif;
+}
+body {
+    background-image: url("");
+}
+
+#headerSection .row {
+    height:14vh;
+}
+.nav-link:hover{
+    color: whitesmoke!important;
+
+}
+
+/* ----- RESPONSİVE -----*/
+
+@media only screen and (max-width: 766px)
+{
+    .cvSection{
+        height: 100%;
+    }
+}
